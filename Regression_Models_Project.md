@@ -102,7 +102,7 @@ It appears that manual transmission cars are better for MPG compared to automati
 
  ***Quantify the MPG difference between automatic and manual transmissions***
 
-Analysis shows that when only transmission was used in the model manual cars have an mpg increase of **7.245**. However, when variables wt and hp are included, the manual car advantage drops to **2.084**.
+Analysis shows that when only transmission was used in the model manual cars have an mpg increase of **7.245**. However, when variables wt and hp are included, the manual car advantage drops to **2.084** with other variables contributing to the effect.
 
 
 
@@ -164,5 +164,12 @@ Analysis shows that when only transmission was used in the model manual cars hav
 
 
 ### Figure 5: Residuals plot 
+
+
+```
+## geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+## geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+## geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+```
 
 ![](Regression_Models_Project_files/figure-html/unnamed-chunk-11-1.png) 
